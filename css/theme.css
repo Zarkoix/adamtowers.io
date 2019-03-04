@@ -54,6 +54,8 @@ header {
   display: block;
   width: 15vw;
   height: 15vw;
+  min-width: 150px;
+  min-height: 150px;
   margin: auto auto;
   margin-top: 3vh;
   border-radius: 50%;
@@ -225,8 +227,7 @@ main {
     position: absolute;
     bottom: 20vh;
     padding-top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: auto;
   }
 
   #selfie {
