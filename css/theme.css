@@ -112,7 +112,7 @@ footer {
   text-align: center;
   margin-top: auto;
   padding: 2px 0;
-  font-size: 16px;
+  font-size: var(--small-text);
 }
 
 main {
