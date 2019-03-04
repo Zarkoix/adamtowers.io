@@ -54,8 +54,8 @@ header {
   display: block;
   width: 15vw;
   height: 15vw;
-  min-width: 150px;
-  min-height: 150px;
+  min-width: 125px;
+  min-height: 125px;
   margin: auto auto;
   margin-top: 3vh;
   border-radius: 50%;
