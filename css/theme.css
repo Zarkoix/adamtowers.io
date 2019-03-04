@@ -6,6 +6,10 @@
   --light-grey: #d8d8d8;
   font-family: "lato";
   font-size: 2vw;
+
+  --large-text: 2rem;
+  --medium-text: 1.5rem;
+  --small-text: 1rem;
 }
 
 .green {
@@ -38,7 +42,7 @@ header {
   text-align: center;
   color: white;
   margin: 0 8px;
-  font-size: 32px;
+  font-size: var(--large-text);
 }
 
 #center > a {
@@ -63,7 +67,7 @@ header {
 }
 
 #links > li {
-  font-size: 2rem;
+  font-size: var(--large-text);
   color: white;
   border-radius: 12px;
   margin: 0 8px;
@@ -72,7 +76,6 @@ header {
 #links > li > a {
   display: block;
   padding: 16px;
-  font-size: 36px;
   text-decoration: none;
   color: white;
 }
@@ -91,7 +94,7 @@ header {
 
 #socials > li > a > i {
   color: white;
-  font-size: 36px;
+  font-size: var(--large-text);
   padding: 0 12px;
   transition: 100ms color ease-in-out;
 }
@@ -124,7 +127,7 @@ main {
 
 #center-text {
   color: var(--dark-grey);
-  font-size: 56px;
+  font-size: 3rem;
 }
 
 #mobile-main {
@@ -146,7 +149,7 @@ main {
   margin: 0;
 
   color: var(--dark-grey);
-  font-size: 36px;
+  font-size: var(--large-text);
 }
 
 #mobile-main-content > ul {
@@ -168,7 +171,7 @@ main {
   background-color: var(--light-grey);
   transition: 100ms color ease-in-out;
 
-  font-size: 36px;
+  font-size: var(--large-text);
   text-decoration: none;
 }
 
