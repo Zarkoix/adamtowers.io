@@ -5,7 +5,7 @@
   --dark-grey: #3c3c3c;
   --light-grey: #d8d8d8;
   font-family: "Lato";
-  font-size: 2vw;
+  font-size: 2vh;
 
   --large-text: 2rem;
   --medium-text: 1.5rem;
@@ -195,11 +195,11 @@ main {
 }
 
 @media (max-aspect-ratio: 6/8) {
-  :root {
+  /* :root {
     --large-text: 36px;
     --medium-text: 18px;
     --small-text: 1rem;
-  }
+  } */
 
   .desktop-only {
     visibility: hidden;
