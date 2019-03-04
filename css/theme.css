@@ -193,6 +193,12 @@ main {
 }
 
 @media (max-aspect-ratio: 6/8) {
+  :root {
+    --large-text: 36px;
+    --medium-text: 18px;
+    --small-text: 1rem;
+  }
+
   .desktop-only {
     visibility: hidden;
     display: none;
