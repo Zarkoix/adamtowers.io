@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+.projects-content {
+    overflow-y: scroll;
+}
+
 .project {
   display: flex;
   flex-direction: row;
