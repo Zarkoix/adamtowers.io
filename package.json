@@ -1,0 +1,21 @@
+{
+  "name": "adamtowers.io",
+  "version": "0.0.0",
+  "description": "personal website/portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run buildProjects",
+    "buildProjects": "node scripts/buildProjectsPage.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zarkoix/adamtowers.io.git"
+  },
+  "author": "Adam Towers",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Zarkoix/adamtowers.io/issues"
+  },
+  "homepage": "https://github.com/Zarkoix/adamtowers.io#readme"
+}
