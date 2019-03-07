@@ -128,9 +128,12 @@ main {
 }
 
 #center-text {
-  text-align: center;
   color: var(--dark-grey);
   font-size: 3rem;
+}
+
+#center-text > h2 {
+  text-align: center;
 }
 
 #mobile-main {
