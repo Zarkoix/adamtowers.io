@@ -18,9 +18,12 @@
   border-radius: 4px;
 }
 
-.project > img {
-  margin-right: 12px;
-  border-radius: 4px;
+.project > a {
+  transition: box-shadow 0.15s ease;
+}
+
+.project > a:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0 2px 3px;
 }
 
 .project-details {
@@ -32,9 +35,12 @@
 }
 
 .project-details > a > h3 {
-  font-size: var(--large-text);
   margin: 0;
   margin-bottom: 8px;
+}
+
+.project-details > a > h3:hover {
+  color: var(--theme-green);
 }
 
 .projects-content {
@@ -42,8 +48,8 @@
 }
 
 .project-date {
-    margin-left: 1em;
-    color: var(--accent-green);
+  margin-left: 1em;
+  color: var(--accent-green);
 }
 
 @media (max-aspect-ratio: 6/8) {
