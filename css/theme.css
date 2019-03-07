@@ -30,6 +30,7 @@ body {
 header {
   flex-grow: 0.3;
   background-color: var(--theme-green);
+  z-index: 2;
 }
 
 h1, h2, h3 {
@@ -58,8 +59,8 @@ h1, h2, h3 {
   display: block;
   width: 15vw;
   height: 15vw;
-  min-width: 125px;
-  min-height: 125px;
+  min-width: 100px;
+  min-height: 100px;
   margin: auto auto;
   margin-top: 3vh;
   border-radius: 50%;
@@ -230,15 +231,13 @@ main {
 
   #center > a {
     position: absolute;
-    bottom: 20vh;
+    bottom: 15vh;
     padding-top: 0;
     margin: auto;
   }
 
   #selfie {
     margin-top: 0;
-    width: 30vw;
-    height: 30vw;
   }
 
   header {
