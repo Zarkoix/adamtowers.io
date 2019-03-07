@@ -128,6 +128,7 @@ main {
 }
 
 #center-text {
+  text-align: center;
   color: var(--dark-grey);
   font-size: 3rem;
 }
