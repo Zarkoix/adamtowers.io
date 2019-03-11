@@ -19,6 +19,7 @@
 html,
 body {
   height: 100%;
+  overflow: hidden;
   margin: 0;
 }
 
@@ -189,15 +190,11 @@ main {
 
 .desktop-only {
   visibility: visible;
-  height: 100%;
-  width: 100%;
 }
 
 .mobile-only {
   visibility: hidden;
   display: none;
-  height: 100%;
-  width: 100%;
 }
 
 @media (max-aspect-ratio: 6/8) {

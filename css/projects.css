@@ -56,6 +56,24 @@
   color: var(--accent-green);
 }
 
+.projects-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.projects-title > a {
+  font-size: var(--large-text);
+  color: var(--dark-grey);
+  margin-right: 16px;
+
+  transition: color 150ms ease-in-out
+}
+
+.projects-title > a:hover {
+  color: var(--theme-green);
+}
+
 @media (max-aspect-ratio: 6/8) {
   .projects-content {
     position: relative;
