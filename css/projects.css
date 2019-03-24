@@ -5,7 +5,7 @@
 }
 
 .projects-content {
-    overflow-y: scroll;
+  overflow-y: scroll;
 }
 
 .project {
@@ -67,7 +67,7 @@
   color: var(--dark-grey);
   margin-right: 16px;
 
-  transition: color 150ms ease-in-out
+  transition: color 150ms ease-in-out;
 }
 
 .projects-title > a:hover {

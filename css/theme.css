@@ -200,11 +200,9 @@ main {
 }
 
 @media (max-aspect-ratio: 6/8) {
-  /* :root {
-    --large-text: 36px;
-    --medium-text: 18px;
-    --small-text: 1rem;
-  } */
+  :root {
+    font-size: 1.5vh;
+  }
 
   .desktop-only {
     visibility: hidden !important;
@@ -223,23 +221,19 @@ main {
 
   #center {
     height: auto;
-    position: absolute;
     bottom: 0;
     width: 100%;
+    padding-top: 1vh;
   }
 
   #center > a {
-    position: absolute;
-    bottom: 15vh;
+    /* position: absolute; */
+    bottom: 20vh;
     padding-top: 0;
     margin: auto;
   }
 
   #selfie {
     margin-top: 0;
-  }
-
-  header {
-    height: 30%;
   }
 }
