@@ -34,7 +34,9 @@ header {
   z-index: 2;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--dark-grey);
   font-size: var(--large-text);
 }
@@ -205,12 +207,12 @@ main {
   } */
 
   .desktop-only {
-    visibility: hidden;
-    display: none;
+    visibility: hidden !important;
+    display: none !important;
   }
 
   .mobile-only {
-    visibility: visible;
+    visibility: visible !important;
     display: initial;
   }
 
