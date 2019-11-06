@@ -44,7 +44,7 @@
 }
 
 .project-details > a > h3:hover {
-  color: var(--theme-green);
+  color: var(--primary);
 }
 
 .projects-content {
@@ -53,7 +53,6 @@
 
 .project-date {
   margin-left: 1em;
-  color: var(--accent-green);
 }
 
 .projects-title {
@@ -71,7 +70,7 @@
 }
 
 .projects-title > a:hover {
-  color: var(--theme-green);
+  color: var(--primary);
 }
 
 @media (max-aspect-ratio: 6/8) {
