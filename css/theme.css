@@ -1,10 +1,14 @@
 :root {
-  --background-color: #eeeeee;
-  --theme-green: #25b668;
-  --accent-green: #4ac282;
+  --background-color: #ffffff;
+  --side-bar-bg-color: #ffffff;
+  --side-bar-text-color: #3a3a3a;
+  --primary: #25b668;
+  --primary-accent: #4ac282;
   --dark-grey: #3c3c3c;
   --light-grey: #d8d8d8;
-  font-family: "Poppins", sans-serif;
+  --primary-font: "Poppins", sans-serif;
+  --comic-font: "McLaren", sans-serif;
+  font-family: var(--primary-font);
   font-size: 2vh;
 
   --large-text: 2rem;
@@ -12,8 +16,12 @@
   --small-text: 1rem;
 }
 
+.comic {
+  font-family: "McLaren", sans-serif;
+}
+
 .green {
-  color: var(--theme-green);
+  color: var(--primary);
 }
 
 html,
@@ -30,7 +38,7 @@ body {
 
 header {
   flex-grow: 0.3;
-  background-color: var(--theme-green);
+  background-color: var(--side-bar-bg-color);
   z-index: 2;
 }
 
@@ -49,7 +57,7 @@ h3 {
 
 #center > h1 {
   text-align: center;
-  color: white;
+  color: var(--side-bar-text-color);
   margin: 0 8px;
 }
 
@@ -60,14 +68,15 @@ h3 {
 
 #selfie {
   display: block;
-  width: 15vw;
-  height: 15vw;
-  min-width: 100px;
-  min-height: 100px;
+  width: 6.5vw;
+  height: 6.5vw;
+  min-width: 80px;
+  min-height: 80px;
   margin: auto auto;
-  margin-top: 3vh;
+  margin-top: 6vh;
+  margin-bottom: 4vh;
   border-radius: 50%;
-  border: 4px solid var(--theme-green);
+  border: 2px solid var(--side-bar-text-color);
 }
 
 #links {
@@ -87,11 +96,11 @@ h3 {
   display: block;
   padding: 16px;
   text-decoration: none;
-  color: white;
+  color: var(--side-bar-text-color);
 }
 
 #links > li:hover {
-  background-color: var(--accent-green);
+  background-color: var(--primary-accent);
 }
 
 #socials {
@@ -103,24 +112,25 @@ h3 {
 }
 
 #socials > li > a > i {
-  color: white;
+  color: var(--side-bar-text-color);
   font-size: var(--large-text);
   padding: 0 12px;
   transition: 100ms color ease-in-out;
 }
 
 #socials > li > a:hover > i {
-  color: var(--dark-grey);
+  color: black;
 }
 
 footer {
-  color: white;
+  color: var(--side-bar-text-color);
   opacity: 0.44;
   width: 100%;
   text-align: center;
   margin-top: auto;
   padding: 2px 0;
   font-size: var(--small-text);
+  font-family: var(--comic-font);
 }
 
 main {
@@ -187,7 +197,7 @@ main {
 }
 
 #mobile-main-content > ul > li > a:hover {
-  background-color: var(--accent-green);
+  background-color: var(--primary-accent);
 }
 
 .desktop-only {
