@@ -103,8 +103,8 @@ h3 {
   color: var(--side-bar-text-color);
 }
 
-#links > li:hover {
-  background-color: var(--primary-accent);
+#links > li:hover > a {
+  color: var(--primary-accent);
 }
 
 #socials {
