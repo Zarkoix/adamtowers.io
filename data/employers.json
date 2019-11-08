@@ -14,5 +14,13 @@
     "img": "images/employers/intuit.png",
     "desc": "Worked on helping Mint users with credit debt",
     "year": "Summer 2018"
+  },
+  {
+    "companyName": "University of Washington, CSE",
+    "role": "Head Teaching Assistant for CSE 340",
+    "link": "https://courses.cs.washington.edu/courses/cse340/",
+    "img": "images/employers/uw.png",
+    "desc": "TAing a brand new course",
+    "year": "Spring '19, Winter '20"
   }
 ]
