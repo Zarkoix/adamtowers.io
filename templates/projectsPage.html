@@ -18,7 +18,7 @@
             <a href="/" class="desktop-only">
                 <img src="images/hero_image.png" id="selfie"></img>
             </a>
-            <h1 class="comic">Adam Towers</h1>
+            <a href="/"><h1 class="comic">Adam Towers</h1></a>
             <ul id="socials">
                 <li><a href="https://twitter.com/realAdamTowers" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/adam-towers" target="_blank"><i class="fab fa-linkedin"></i></a></li>
@@ -39,13 +39,22 @@
         </section>
     </header>
     <main>
-        <div class="projects-content">
-            <div class="projects-title">
-                    <a href="/" class="mobile-only"><i class="fas fa-chevron-left"></i></a>
-                    <h2>Here's what I <span class="green">work</span> on</h2>
+        <div class="endeavors-content">
+            <div class="endeavors-title">
+                    <!-- <a href="/" class="mobile-only"><i class="fas fa-chevron-left"></i></a> -->
+                    <h2>Here's what I <span class="green">work on</span></h2>
             </div>
-            <ul id="projects-list">
+            <ul id="projects-list" class="endeavors-list">
                 {{projects-list}}
+            </ul>  
+        </div>
+        <div class="endeavors-content">
+            <div class="endeavors-title">
+                    <!-- <a href="/" class="mobile-only"><i class="fas fa-chevron-left"></i></a> -->
+                    <h2>Here's where I've <span class="green">worked</span></h2>
+            </div>
+            <ul id="employers-list" class="endeavors-list">
+                {{employers-list}}
             </ul>  
         </div>
     </main>

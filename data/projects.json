@@ -2,7 +2,7 @@
   {
     "name": "Dubhacks",
     "link": "https://dubhacks.co",
-    "img": "images/dubhacks.jpg",
+    "img": "images/projects/dubhacks.jpg",
     "desc": "UW's largest hackathon",
     "year": "2019"
   },
@@ -16,21 +16,21 @@
   {
     "name": "Honors Portfolio",
     "link": "https://honors.adamtowers.io",
-    "img": "images/honors.png",
+    "img": "images/projects/honors.png",
     "desc": "Interdisciplinary Honors program portfolio",
     "year": "2018"
   },
   {
     "name": "FastFlow",
     "link": "https://fastflowdebate.github.io/FastFlowApp/",
-    "img": "images/fastflow.png",
+    "img": "images/projects/fastflow.png",
     "desc": "Flow debate rounds with ease",
     "year": "2017"
   },
   {
     "name": "Edit",
     "link": "https://edit.adamtowers.io",
-    "img": "images/edit.png",
+    "img": "images/projects/edit.png",
     "desc": "Minimalistic Text Editor",
     "year": "2017"
   }

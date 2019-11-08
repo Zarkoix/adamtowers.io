@@ -1,0 +1,18 @@
+[
+  {
+    "companyName": "Google Search",
+    "role": "Technical Program Management Intern",
+    "link": "https://google.com",
+    "img": "images/employers/google.png",
+    "desc": "Worked on keeping Search safe",
+    "year": "Summer 2019"
+  },
+  {
+    "companyName": "Intuit Futures",
+    "role": "Product Management Intern",
+    "link": "https://intuit.com",
+    "img": "images/employers/intuit.png",
+    "desc": "Worked on helping Mint users with credit debt",
+    "year": "Summer 2018"
+  }
+]
